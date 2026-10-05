@@ -1,0 +1,51 @@
+const ArenaConnect = require('../models/ArenaConnect');
+
+class ArenaConnectController {
+
+    static adicionarTurma(sistema) {
+        sistema.adicionarTurma();
+    }
+
+    static listarTurmas(sistema) {
+        sistema.listarTurmas();
+    }
+
+    static adicionarAtleta(sistema) {
+        sistema.adicionarAtleta();
+    }
+
+    static listarAtletas(sistema) {
+        sistema.listarAtletas();
+    }
+
+    static adicionarArbitro(sistema) {
+        sistema.adicionarArbitro();
+    }
+
+    static listarArbitros(sistema) {
+        sistema.listarArbitros();
+    }
+
+    static adicionarEquipe(sistema) {
+        sistema.adicionarEquipe();
+    }
+
+    static listarEquipes(sistema) {
+        sistema.listarEquipes();
+    }
+
+    static vincularAtletaEquipe(sistema) {
+        sistema.vincularAtletaEquipe();
+    }
+
+    static desvincularAtletaEquipe(sistema) {
+        sistema.desvincularAtletaEquipe();
+    }
+
+    static removerEquipe(sistema) {
+        sistema.removerEquipe();
+    }
+}
+
+module.exports = ArenaConnectController;
+    

@@ -1,13 +1,19 @@
 {
-  "name": "arenaconnet",
+  "name": "arena-connect",
   "version": "1.0.0",
   "description": "",
-  "main": "missao1.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  }
 }
+
